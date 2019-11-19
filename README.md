@@ -6,11 +6,11 @@
 \_/   /_/   \____/\_/   \_/\_|\_\\____\
                                        
 
-// pyspike
+// pyspyke
 // Curator: Josh Groeschl
 ```
 
-# pyspike
+# pyspyke
 Python application to spike a systens memory to desired percentage allotments.
 
 __Installation__
@@ -19,7 +19,7 @@ __Installation__
 
 - ```pip3 install --editable .```
 
-- After installatino is complete just run: ```pyspike --time 1 --percentage 60```
+- After installatino is complete just run: ```pyspyke --time 1 --percentage 60```
 
 - This call withh hold the percentage at 60% for 1 minute. 
 - Use the flags accordingly to adjust the necessary parameters.
