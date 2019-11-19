@@ -26,9 +26,9 @@ def spike_mem_usage(percentage, time_frame):
         exit
     while int(psutil.virtual_memory().percent) <= int(percentage):
         result = [numpy.random.bytes(1024*1024) for x in range(get_memory_allocation_int(percentage))]
-        if int(psutil.virtual_memory().percent) >= int(percentage) and int(datetime.now().strftime('%s')) >= time_frame:
+        if int(psutil.virtual_memory().percent) >= int(percentage) and datetime.now().strftime('%s') >= time_frame:
             break
-        elif int(psutil.virtual_memory().percent) >= int(percentage) and int(datetime.now().strftime('%s')) <= time_frame:
+        elif int(psutil.virtual_memory().percent) >= int(percentage) and datetime.now().strftime('%s') <= time_frame:
             time.sleep(time_sleep)
             break
 
