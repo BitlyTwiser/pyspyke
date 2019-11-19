@@ -17,7 +17,7 @@ setup(
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
-            'pyspyke = pyspike.pyspike:main',
+            'pyspyke = pyspyke.pyspyke:main',
         ]
     },
     package_dir={'': 'src'},
