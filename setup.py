@@ -8,7 +8,7 @@ install_requires = [
 
 setup(
     name='pyspyke',
-    version='0.0.1',
+    version='0.0.2',
     author='Joshua Groeschl',
     author_email='joshua.groeschl@tutanota.com',
     description='Application for consuming memory of linux systems.',
