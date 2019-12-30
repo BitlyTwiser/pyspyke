@@ -25,6 +25,6 @@ __Installation__
 
 - After installatino is complete just run: ```pyspyke --time 1 --percentage 60```
 
-- This call withh hold the percentage at 60% for 1 minute. 
+- The above command will hold the percentage at 60% for 1 minute. 
 - Use the flags accordingly to adjust the necessary parameters.
 
